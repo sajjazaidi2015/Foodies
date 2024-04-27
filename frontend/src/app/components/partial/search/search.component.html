@@ -1,0 +1,4 @@
+<div>
+    <input #s type="text" placeholder="search food" (keyup.enter)="s.value" [value]="searchTerm">
+    <button (click)="search(s.value)">Search</button>
+</div>
